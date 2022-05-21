@@ -1,0 +1,29 @@
+input{
+    //MPS parameters
+    cutoff = 1E-6
+    Maxm = 100
+
+    //system parameters
+    N_site = 20
+
+    // model
+    J = 1
+    gamma = 10
+
+    //Quantum Trajectory parameters
+    t_init = 0.
+    t_ev = .1
+    dt = 5E-3
+    type_TE = Multiple
+    N_sample = 500
+    N_loop = 100
+
+    //output file name
+    output = store/gamma_10/dat
+    append = 1
+
+
+
+
+
+    }

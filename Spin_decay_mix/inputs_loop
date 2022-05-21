@@ -1,0 +1,23 @@
+input{
+    //MPS parameters
+    cutoff = 1E-12
+    Maxm = 100
+
+
+    //Quantum Trajectory parameters
+    t_init = 0.
+    t_ev = 1
+    dt = 1E-2
+    type_TE = Multiple
+    N_sample = 50
+    N_loop = 10
+
+    //output file name
+    output = store/single_test_50/dat_hp_
+    append = 0
+
+
+
+
+
+    }

@@ -1,0 +1,10 @@
+gamma=3
+competition=Dephasing
+type_TE=Multiple
+N_site=10
+t_init=0
+t_ev=0.1
+dt=0.005
+N_core=5
+N_loop=2
+N_sample=10

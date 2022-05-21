@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# walltime requested
+#SBATCH -t 4:00:00
+
+# number of nodes
+#SBATCH -N 16
+
+# cores per node
+--ntasks-per-node=28
+
+# load OpenMPI
+module load mpi/gcc_openmpi
+
+# mpirun
+mpirun -np 448 ./main_loop inputs_loop

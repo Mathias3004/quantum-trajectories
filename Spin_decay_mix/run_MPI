@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# walltime requested
+#SBATCH -t 4:00:00
+
+# number of nodes
+#SBATCH -N 2
+
+# cores per node
+--ntasks-per-node=28
+
+# mpirun
+mpirun -np 56 ./main_loop inputs_loop 50 10. 0.

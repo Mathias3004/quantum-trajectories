@@ -1,0 +1,36 @@
+input{
+    //MPS parameters
+    cutoff = 1E-6
+    Maxm = 100
+
+    //system parameters
+    N_site = 32
+    nfock = 5
+    // N_particle
+
+    // model
+    gamma = 1
+    competition = Dephasing
+    periodic = 0
+
+    //Quantum Trajectory parameters
+    t_init = 0.
+    t_ev = 1.
+    dt = 1E-2
+    type_TE = Multiple
+    N_sample = 20
+    N_loop = 1
+    
+    // verbose output
+    verbose = 1
+
+    //output files
+    output = store/test/dat
+    seperate_files = 0
+    append = 1
+
+
+
+
+
+    }
